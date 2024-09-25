@@ -22,4 +22,4 @@ mid_weight= (((mid_grade1 + mid_grade2)/2)*0.25)
 final_weight=(final_grade*0.18)
 mid_final_prep_weight=(mid_final_prep*0.06)
 End_grade= labs_weight + quiz_weight + mid_weight + final_weight + mid_final_prep_weight + ass_weight
-print("Your grade is:" + End_grade)
+print("Your grade is:" + str(End_grade))
